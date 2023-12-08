@@ -6,6 +6,9 @@ Projeto prático desenvolvido utilizando HTML e CSS para replicar um site com ba
 
 Desenvolvido por Juliana Chaves Palm.
 
+## Mentora
+[Michele Ambrosio](https://github.com/micheleambrosio)
+
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido como parte da Potência Tech iFood - Desenvolvimento de Jogos da
