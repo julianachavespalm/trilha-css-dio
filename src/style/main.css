@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+:root {
+    --black: #000;
+    --blue: #33A8DB;
+    --gray: #252525;
+    --white: #ffffff;
+    --teal: #33A8DB80;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--black);
+
+    color: var(--white);
+}
+
+.is-uppercase { text-transform: uppercase;}
+
+.is-lowercase { text-transform: lowercase;}
+
+.is-blue { color: var(--blue);}
+
+.banner {
+    width: 100vw;
+    height: 605px;
+    padding: 60px 0 31px;
+    margin-bottom: 24px;
+
+    background-image: linear-gradient(#00000099, #31a8dd33, #00000099), url('../img/banner.png');
+    background-size: cover;
+    border-bottom: 1px solid var(--teal);
+}
+
+.banner--center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__logo {
+    width:600px;
+    height: 393px;
+}
+
+.banner__img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    width: 260px;
+
+    border-radius: 50%;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.banner__img {
+    height: 214px;
+    width: 248px;
+}
+
+.banner__title {
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 16px 0;
+}
+
+.banner__text--center {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+.banner__button {
+    height: 57px;
+    width: 326px;
+    padding: 16px 32px;
+
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 10;
+    border-image-source: linear-gradient(#3ba1cd, #1572b7);
+    
+    background-color: transparent;
+
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+.content { margin: 0 0 24px; }
+
+.content--center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content--letter-spacing { letter-spacing: 4px; }
+
+.content__learning { 
+    width: 792px;
+    height: 528px;
+    margin: 0 auto;
+}
+
+.content__title {
+    margin-bottom: 24px;
+
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.content__text--center { 
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.content__module {
+    height: 51px;
+    width: 535px;
+    margin: 0 0 24px;
+    padding: 16px 0;
+
+    border: 1px solid var(--blue);
+    border-radius: 30px;
+
+    background-color: var(--gray);
+
+    text-align: center;
+}
+
+.content__transforming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 363px;
+    margin: 0 0 24px;
+    padding: 200px;
+
+    border-top: 1px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
+
+    background-attachment: fixed;
+    background-image: url('../img/woman-code.png');
+    background-size: cover;
+}
+
+.content__text--blue-shadow {
+    width: 244px;
+    height: 141px;
+
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: var(--blue) 3px 2px 0;
+}
+
+.content__professional-challenges {
+    width: 800px;    
+    align-items: center;
+    margin: 76px auto;
+
+    text-align: center;
+}
+
+.content__img { margin: 40px;}
+
+
+
+
+.social-media {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+
+    border-top: 1px solid var(--blue);
+}
+
+.social-media__img {
+    height: 44px;
+    width: 310px;
+}
+
+.social-media__link { 
+    text-decoration: none;
+    font-weight: bold;
+}
