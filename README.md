@@ -34,4 +34,4 @@ Inclua capturas de tela ou gifs animados do site para demonstrar seu funcionamen
 
 - **Fontes:** Raleway do Google Fonts.
 - **Imagens:** Localizadas na pasta `src/img`.
-- **CSS:** [`src/img/main.css`]().
+- **CSS:** [`src/img/main.css`](https://github.com/julianachavespalm/trilha-css-dio/blob/main/src/style/main.css).
