@@ -26,10 +26,6 @@ O projeto consiste em:
 
 O protótipo utilizado para desenvolvimento está disponível no [Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=0%3A1).
 
-## Capturas de Tela
-
-Inclua capturas de tela ou gifs animados do site para demonstrar seu funcionamento.
-
 ## Recursos Utilizados
 
 - **Fontes:** Raleway do Google Fonts.
